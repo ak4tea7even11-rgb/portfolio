@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abnify - Product</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+    <main class="main-content container product-detail-container" data-id="1">
+        <div class="product-images-section">
+            <div class="main-product-image-container">
+                <img class="main-product-image" src="" alt="Product Image">
+            </div>
+            <div class="thumbnails"></div>
+            <video class="product-video" controls autoplay muted>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="product-info-section product-info">
+            <h1 class="product-title"></h1>
+            <div class="rating">
+                <span class="rating-stars"></span>
+                <span class="rating-number"></span>
+            </div>
+            <div class="price-container">
+                <span class="price"></span>
+                <span class="old-price"></span>
+            </div>
+            <p class="product-description"></p>
+            <div class="variants-section">
+                <h4>Color:</h4>
+                <div class="variant-selector color-variants"></div>
+                <h4>Storage:</h4>
+                <div class="variant-selector storage-variants"></div>
+            </div>
+            <div class="details-tabs">
+                <button class="tab-button active" data-tab="description">Description</button>
+                <button class="tab-button" data-tab="specs">Specifications</button>
+                <button class="tab-button" data-tab="reviews">Reviews</button>
+                <div class="tab active" id="description">
+                    <p class="product-long-description"></p>
+                </div>
+                <div class="tab" id="specs">
+                    <ul></ul>
+                </div>
+                <div class="tab reviews" id="reviews"></div>
+            </div>
+        </div>
+        <div class="product-buy-section product-buy" data-id="">
+            <h3>Buy Now</h3>
+            <div class="price"></div>
+            <p class="prime-delivery"></p>
+            <p class="in-stock"></p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+            <button class="add-to-wishlist-btn">Add to Wishlist</button>
+            <button class="buy-now-btn">Buy Now</button>
+        </div>
+    </main>
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+    <script src="script.js"></script>
+</body>
+</html>

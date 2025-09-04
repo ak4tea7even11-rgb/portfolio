@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abnify - Category</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+    <main class="main-content container">
+        <div class="sidebar-filters">
+            <details class="filter-section" open>
+                <summary>Price Range</summary>
+                <input type="range" id="price-slider" class="price-slider" min="0" max="1000" value="500">
+                <p>Max Price: <span id="price-display">$500</span></p>
+            </details>
+            <details class="filter-section" open>
+                <summary>Brands</summary>
+                <div class="filter-options" id="brand-filters"></div>
+            </details>
+            <details class="filter-section" open>
+                <summary>Star Ratings</summary>
+                <div class="filter-options">
+                    <label><input type="checkbox" data-rating="4">4 Stars & Above</label>
+                </div>
+            </details>
+            <details class="filter-section" open>
+                <summary>Availability</summary>
+                <div class="filter-options">
+                    <label><input type="checkbox" data-stock="true">In Stock</label>
+                </div>
+            </details>
+        </div>
+        <div class="product-grid"></div>
+    </main>
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+    <script src="script.js"></script>
+</body>
+</html>
