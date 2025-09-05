@@ -278,7 +278,7 @@ header {
     background: #086408;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 12px #00b4d8;
+    box-shadow: 0 4px 12px #086408;
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
 }
@@ -519,4 +519,5 @@ header {
     .icon-container i {
         font-size: 1.5rem;
     }
+
 }
